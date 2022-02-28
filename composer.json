@@ -1,0 +1,28 @@
+{
+    "name": "silenceonthewire/logs",
+    "description": "Logs module for laravael 9.",
+    "authors": [
+        {
+            "name": "Adrian Stolarski",
+            "email": "adrian.stolarski@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Logs\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Logs\\Tests\\": "Modules/Logs/Tests"
+        }
+    }
+}
